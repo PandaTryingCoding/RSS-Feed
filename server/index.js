@@ -99,8 +99,8 @@ app.get("/rss.xml", (req, res) => {
      xmlns:podcast="https://podcastindex.org/namespace/1.0"
      xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-    <atom:link href="https://rss-feed-production-3dfb.up.railway.app/rss.xml" rel="self" type="application/rss+xml" />
-      <title>My Podcast</title>
+    <atom:link href="https://rss-feed-production-8b65.up.railway.app/rss.xml" rel="self" type="application/rss+xml" />
+      <title>My Podcast New</title>
       <link>${BASE_URL}</link>
       <language>en-us</language>
       <description>A podcast where I explore the world of software, technology, and creative tools in depth every week.</description>
@@ -108,7 +108,7 @@ app.get("/rss.xml", (req, res) => {
       <itunes:summary>Join me every week as I dive into the latest in software development, creative tools, and behind-the-scenes stories from tech creators.</itunes:summary>
       <itunes:owner>
         <itunes:name>Satyam</itunes:name>
-        <itunes:email>dhanush@koolio.ai</itunes:email>
+        <itunes:email>satyamjsr999@gmail.com</itunes:email>
       </itunes:owner>
       <itunes:image href="${BASE_URL}/uploads/podcast-cover.jpg"/>
       <itunes:explicit>no</itunes:explicit>
