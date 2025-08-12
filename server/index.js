@@ -99,7 +99,7 @@ app.get("/rss.xml", (req, res) => {
      xmlns:podcast="https://podcastindex.org/namespace/1.0"
      xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-    <atom:link href="https://rss-feed-production-109c.up.railway.app/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rss-feed-production-3dfb.up.railway.app/rss.xml" rel="self" type="application/rss+xml" />
       <title>My Podcast</title>
       <link>${BASE_URL}</link>
       <language>en-us</language>
