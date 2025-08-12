@@ -80,6 +80,7 @@ app.get("/rss.xml", (req, res) => {
       (ep) => `
       <item>
         <title>${ep.title}</title>
+        <itunes:image href="${BASE_URL}/uploads/episode-cover-art.jpg"/>
         <description>${ep.description}</description>
         <enclosure url="${ep.fileUrl}" type="audio/mpeg" />
         <guid>${ep.fileUrl}</guid>
